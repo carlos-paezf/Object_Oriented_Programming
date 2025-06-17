@@ -1,41 +1,75 @@
-# Website
+# Object Oriented Programming (OOP)
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+[![wakatime](https://wakatime.com/badge/user/8ef73281-6d0a-4758-af11-fd880ca3009c/project/978c66b7-aedf-4b4c-a4ee-6197b6ef815e.svg?style=for-the-badge)](https://wakatime.com/badge/user/8ef73281-6d0a-4758-af11-fd880ca3009c/project/978c66b7-aedf-4b4c-a4ee-6197b6ef815e)
 
-## Installation
+> 🌟 *El conocimiento no es útil si no se comparte.*
 
-```bash
-yarn
-```
+Este proyecto es una plataforma de documentación educativa desarrollada con [Docusaurus](https://docusaurus.io/).
 
-## Local Development
+## Objetivo
 
-```bash
-yarn start
-```
+Brindar tanto a estudiantes cómo docentes, un recurso descentralizado, estructurado y multilingüe, que facilite el acceso a los siguientes temas:
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+- Bloque 01: Fundamentos de Programación Orientada a Objetos
+  - Conceptos Básicos
+  - Introducción a la Programación Orientada a Objetos
 
-## Build
+## Internacionalización
 
-```bash
-yarn build
-```
+El portal estará disponible en 2 idiomas:
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+- 🇪🇸 Español (predeterminado)
+- 🇺🇸 Inglés
 
-## Deployment
+Puedes cambiar el idioma desde el menú superior del sitio.
 
-Using SSH:
+## Instalación local
 
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
+Para trabajar en el sitio de documentación de forma local:
 
 ```bash
-GIT_USER=<Your GitHub username> yarn deploy
+# Clona el repositorio
+git clone https://github.com/carlos-paezf/Object_Oriented_Programming_Intersemester.git
+cd Object_Oriented_Programming_Intersemester
+
+# Instala las dependencias
+npm install
+
+# Inicia el servidor de desarrollo
+npm run start
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Abre <http://localhost:3000> en tu navegador.
+
+## Estructura del proyecto
+
+- `/docs` Contenidos originales en español
+- `/i18n/en` Traducciones al inglés
+- `src` Componentes y páginas personalizadas
+- `/static` Archivos estáticos (imágenes, descargas, etc.)
+
+## Contribuciones
+
+Este proyecto está abierto a docentes o estudiantes que deseen colaborar con:
+
+- Traducciones
+- Correcciones ortográficas o técnicas
+- Mejora en la organización o visualización de los contenidos
+
+Por favor, antes de hacer un Pull Request, revisa el archivo [`CONTRIBUTING.md`](./CONTRIBUTING.md)
+
+## Comandos útiles
+
+|Acción|Comando|
+|--|--|
+|Ejecutar en modo desarrollo|`npm run start`|
+|Compilar para producción|`npm run build`|
+|Generar estructura para traducciones|`npm run write-translations`|
+
+## Autor
+
+Proyecto desarrollado por Carlos David Páez Ferreira, Ingeniero de Sistemas y Docente Universitario, como recurso de apoyo para estudiantes y colegas.
+
+## Licencia
+
+Este proyecto está licenciado bajo la MIT License.
