@@ -32,7 +32,7 @@ Los cuatro pilares fundamentales de la Programación Orientada a Objetos son pri
 
 *Definición:* Permite que una clase (subclase) **herede atributos y métodos** de otra clase (superclase), evitando duplicación de código.
 
-Ejemplo real: `Bird` hereda de `Animal`, por lo tanto, todos los pájaros son animales.
+*Ejemplo real:* `Bird` hereda de `Animal`, por lo tanto, todos los pájaros son animales.
 
 ```mermaid
 classDiagram
