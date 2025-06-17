@@ -18,7 +18,7 @@ const config: Config = {
     url: 'https://carlos-paezf.github.io',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: '/Object_Oriented_Programming/',
+    baseUrl: '/Object_Oriented_Programming_Intersemester/',
     trailingSlash: false,
 
     // GitHub pages deployment dir.
@@ -27,7 +27,7 @@ const config: Config = {
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'carlos-paezf', // Usually your GitHub org/user name.
-    projectName: 'Object_Oriented_Programming', // Usually your repo name.
+    projectName: 'Object_Oriented_Programming_Intersemester', // Usually your repo name.
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -91,7 +91,7 @@ const config: Config = {
                 },
                 // { to: '/blog', label: 'Blog', position: 'left' },
                 {
-                    href: 'https://github.com/carlos-paezf/Object_Oriented_Programming',
+                    href: 'https://github.com/carlos-paezf/Object_Oriented_Programming_Intersemester',
                     label: 'GitHub',
                     position: 'right',
                 },
