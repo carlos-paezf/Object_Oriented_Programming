@@ -216,9 +216,7 @@ Para trabajar con PlantUML en VSCode debes:
 - Dibujar en grupo el diagrama UML en papel (nombre, atributos, métodos).
 - Uso de PlantUML o draw.io para digitalizar el diagrama.
 
-## Reto de clase
-
-**Sistema de Biblioteca (versión POJO):**
+## Mini proyecto: Sistema de Biblioteca (versión POJO)
 
 - Clase `Book`: título, autor, año, ISBN
 - Clase `User`: id, nombre, correo

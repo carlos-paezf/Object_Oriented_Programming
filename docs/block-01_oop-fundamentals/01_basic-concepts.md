@@ -49,7 +49,7 @@ import TabItem from "@theme/TabItem";
 classDiagram
     class Person {
         -String name
-        -String age
+        -int age
         +string getName()
         +int getAge()
         +void greet()
