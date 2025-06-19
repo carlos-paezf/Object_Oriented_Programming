@@ -79,6 +79,7 @@ classDiagram
     }
 
     class BankAccountTest {
+        <<Test>>
         + void testDepositAndWithdraw()
     }
 

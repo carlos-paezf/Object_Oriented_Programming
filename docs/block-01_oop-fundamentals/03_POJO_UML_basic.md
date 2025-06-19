@@ -45,6 +45,7 @@ classDiagram
     }
 
     class BookTest  {
+        <<Test>>
         + void testBookToString()
         + void testSetAndGetTitle()
     }
@@ -227,7 +228,7 @@ Para trabajar con PlantUML en VSCode debes:
 **Pistas:**
 
 - `Loan` debe tener referencias a `Book` y `User`.
-- Uso de composición en UML.
+- Uso de agregación en UML.
   
   ```puml
   @startuml
@@ -239,8 +240,8 @@ Para trabajar con PlantUML en VSCode debes:
       + getBook(): Book
       + getUser(): User
   }
-  Loan --> Book
-  Loan --> User
+  Loan o-- Book
+  Loan o-- User
   @enduml
   ```
 
@@ -291,8 +292,8 @@ classDiagram
         + void setUser(String)
     }
 
-    Loan --> Book
-    Loan --> User
+    Loan o-- Book : has
+    Loan o-- User : has
 ```
 
 </TabItem>
@@ -340,8 +341,8 @@ class User {
     + setUser(String): void
 }
 
-Loan --> Book
-Loan --> User
+Loan o-- Book
+Loan o-- User
 @enduml
 ```
 

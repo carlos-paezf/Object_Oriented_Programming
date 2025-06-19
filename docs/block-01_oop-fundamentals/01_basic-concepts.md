@@ -119,6 +119,7 @@ classDiagram
     }
 
     class CarTest {
+        <<Test>>
         + void testEngineStartStop()
     }
 

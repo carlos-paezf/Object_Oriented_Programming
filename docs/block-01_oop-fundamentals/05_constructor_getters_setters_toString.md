@@ -215,6 +215,16 @@ classDiagram
         + void setGpa(double)
         + String toString()
     }
+
+    class StudentTest {
+        <<Test>>
+        + void testConstructorAndToString()
+        + void testValidSetters()
+        + void testInvalidGpaNotSet()
+        + void testToStringFormat()
+    }
+
+    StudentTest --> Student : test
 ```
 
 </TabItem>

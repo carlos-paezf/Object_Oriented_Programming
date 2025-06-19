@@ -67,7 +67,7 @@ Para su instalación debemos:
    - Recomendación: Asegurarse de que tengas la variable `JAVA_HOME` definida (por ejemplo: `C:\Program Files\Java\jdk-21`)
 4. Verificar la instalación accediendo a una terminal y ejecutando el comando `mvn -v` en donde te debe indicar la versión de Apache Maven y de Java.
 
-### En **macOS**
+### En macOS
 
 1. Abrir el gestor de paquetes Homebrew y ejecutar: `brew install maven`.
 2. Verificar la versión instalada con el comando `mvn -v`
@@ -175,6 +175,7 @@ classDiagram
     }
 
     class CalculatorTest {
+        <<Test>>
         + void testAdd()
         + void testDivideSuccess()
         + void testDivideByZeroThrowsException()
