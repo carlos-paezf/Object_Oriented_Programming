@@ -1,0 +1,8 @@
+{
+    "label": "Bloque 02 - Interfaces, mapeo y patrón DAO",
+    "position": 4,
+    "link": {
+        "type": "generated-index",
+        "description": "En este segundo bloque del curso nos adentramos en conceptos fundamentales para la abstracción, reutilización y acceso estructurado a datos. Aprenderás a definir contratos mediante interfaces, aplicar el concepto de mapeo entre clases y datos (por ejemplo, de una tabla a un objeto), y a organizar la lógica de acceso a datos usando el patrón DAO (Data Access Object). Estos conceptos permiten desacoplar la lógica de negocio de los detalles técnicos del almacenamiento, facilitando así el mantenimiento, las pruebas y la escalabilidad de las aplicaciones Java."
+    }
+}
