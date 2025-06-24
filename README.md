@@ -13,6 +13,13 @@ Brindar tanto a estudiantes cómo docentes, un recurso descentralizado, estructu
 - Bloque 01: Fundamentos de Programación Orientada a Objetos
   - Conceptos Básicos
   - Introducción a la Programación Orientada a Objetos
+  - POJO y UML Básico
+  - Unit Testing con JUnit para JDK 21+ (Bonus)
+  - Constructores, Getters y Setters, toString
+  - Enums, String, StringBuffer y StringBuilder
+- Bloque 02: Interfaces, mapeo y patron DAO
+  - Git y Github para estudiantes de Ingeniería (Bonus)
+  - Mapeo y Creación de Objetos
 
 ## Internacionalización
 
