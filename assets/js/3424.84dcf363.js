@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkobject_oriented_programming=self.webpackChunkobject_oriented_programming||[]).push([[3424],{3424:(e,r,c)=>{c.d(r,{createArchitectureServices:()=>t.S});var t=c(1937);c(1028)}}]);
