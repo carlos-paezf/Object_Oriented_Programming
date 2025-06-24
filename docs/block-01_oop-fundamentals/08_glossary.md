@@ -4,7 +4,7 @@ sidebar_position: 8
 
 # Glosario Bloque 01: Fundamentos de POO
 
-## Sección 01: Conceptos Básicos
+## Sección 01 Parte 1: Conceptos Básicos
 
 ### Programación Orientada a Objetos (POO)
 
@@ -120,7 +120,7 @@ sidebar_position: 8
 
 **Ejemplo de uso:** Podemos extender `Car` con nuevos métodos sin cambiar su implementación original.
 
-## Sección 02: Introducción a POO
+## Sección 01 Parte 2: Introducción a POO
 
 ### Clase Abstracta
 
@@ -164,7 +164,7 @@ sidebar_position: 8
 
 **Ejemplo de uso:** Si el comportamiento `makeSound()` se delega a clases como `BarkBehavior` o `MeowBehavior`, el sistema puede cambiar dinámicamente cómo suenan los animales.
 
-## Sección 03: POJO y UML Básico
+## Sección 02: POJO y UML Básico
 
 ### POJO (Plain Old Java Object)
 
@@ -294,7 +294,7 @@ sidebar_position: 8
 
 **Ejemplo de uso:** `assertThrows(IllegalArgumentException.class, () -> calc.divide(5, 0))` asegura que se lanza una excepción al dividir por cero.
 
-## Sección 04: Constructores, Getters y Setters, toString
+## Sección 03: Constructores, Getters y Setters, toString
 
 ### Constructor
 
@@ -338,7 +338,7 @@ sidebar_position: 8
 
 **Ejemplo de uso:** `"Student{name='Ana', id='S001', gpa=4.2}"` es un formato legible para depuración y registros.
 
-## Enums, String, StringBuffer y StringBuilder
+## Sección 04: Enums, String, StringBuffer y StringBuilder
 
 ### enum (Enumeración)
 
