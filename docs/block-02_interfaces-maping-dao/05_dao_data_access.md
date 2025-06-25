@@ -266,8 +266,8 @@ classDiagram
 
     BookDAOImpl ..|> BookDAO : implements
     AuthorDAOImpl ..|> AuthorDAO : implements
-    Book --> Author : written by
-    Book --> Category : classified as
+    Book --* Author : written by
+    Book --* Category : classified as
     BookDAOImpl --> Book : manages
     AuthorDAOImpl --> Author : manages
     App --> BookDAOImpl : uses
