@@ -52,7 +52,7 @@ edu.usta.ui
 
 Cuando observamos la interfaz DAO, podríamos estar hablando de código cómo el siguiente:
 
-```java
+```java title="StudentDAO.java" showLineNumbers
 /**
  * Contract for data access operations related to Student.
  */
@@ -73,7 +73,7 @@ En estos momentos solo estamos simulando el acceso a los datos a través de la m
 
 :::
 
-```java
+```java title="StudentDAOImpl.java" showLineNumbers
 /**
  * In-memory implementation of the StudentDAO.
  */
@@ -110,21 +110,26 @@ public class StudentDAOImpl implements StudentDAO {
 
 Al momento de aplicar unit testing, podemos crear una prueba que utilice la clase `StudentDAOImpl` para probar rápidamente el funcionamiento de la misma:
 
-```java
-@Test
-void testStudentCRUD() {
-    StudentDAO dao = new StudentDAOImpl();
-    Student s = new Student("101", "Luis", "luis@usta.edu.co", StudentStatus.ACTIVE);
+```java title="StudentTest.java" showLineNumbers
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
-    dao.add(s);
-    assertEquals("Luis", dao.get("101").getName());
-
-    s.setName("Luis A.");
-    dao.update(s);
-    assertEquals("Luis A.", dao.get("101").getName());
-
-    dao.delete("101");
-    assertNull(dao.get("101"));
+public class StudentTest {
+    @Test
+    void testStudentCRUD() {
+        StudentDAO dao = new StudentDAOImpl();
+        Student s = new Student("101", "Luis", "luis@usta.edu.co", StudentStatus.ACTIVE);
+    
+        dao.add(s);
+        assertEquals("Luis", dao.get("101").getName());
+    
+        s.setName("Luis A.");
+        dao.update(s);
+        assertEquals("Luis A.", dao.get("101").getName());
+    
+        dao.delete("101");
+        assertNull(dao.get("101"));
+    }
 }
 ```
 

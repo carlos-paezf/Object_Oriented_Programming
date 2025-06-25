@@ -127,7 +127,7 @@ classDiagram
 
 Creado el diagrama de clases, podemos pasar a mapear el producto en una clase, también lo podemos llamar entidad o modelo.
 
-```java
+```java title="Product.java" showLineNumbers
 /**
  * Represents a product in an inventory system.
  */
@@ -171,7 +171,7 @@ public class Product {
 
 Otro paso es simular un repositorio de datos, para esto podemos crear un arreglo con productos ficticios que luego podemos cargar.
 
-```java
+```java title="ProductRepository.java" showLineNumbers
 import java.util.ArrayList;
 import java.util.List;
 
@@ -192,7 +192,7 @@ public class ProductRepository {
 
 Por último comprobamos a traves de los test que nuestro código funciona correctamente.
 
-```java
+```java title="ProductTest.java" showLineNumbers
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

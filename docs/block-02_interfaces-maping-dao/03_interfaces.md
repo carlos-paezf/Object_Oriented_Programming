@@ -31,7 +31,7 @@ import TabItem from "@theme/TabItem";
 <Tabs>
 <TabItem value="java1" label="Ejemplo básico">
 
-```java
+```java title="Operable.java" showLineNumbers
 /**
  * Defines basic operations for any machine.
  */
@@ -42,7 +42,7 @@ public interface Operable {
 }
 ```
 
-```java
+```java title="Machine.java" showLineNumbers
 /**
  * A simple machine that implements Operable behavior.
  */
@@ -69,7 +69,7 @@ public class Machine implements Operable {
 </TabItem>
 <TabItem value="java2" label="Ejemplo intermedio">
 
-```java
+```java title="IPersonRepository.java" showLineNumbers
 /**
  * Interface for managing person data access.
  */
@@ -80,7 +80,7 @@ public interface IPersonRepository {
 }
 ```
 
-```java
+```java title="InMemoryPersonRepository.java" showLineNumbers
 /**
  * Concrete implementation using a simple list.
  */
