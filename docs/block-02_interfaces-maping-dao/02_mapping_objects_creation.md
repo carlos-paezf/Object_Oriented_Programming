@@ -8,8 +8,8 @@ En programación orientada a objetos, una práctica común es **mapear una tabla
 
 Por ejemplo:
 
-Tabla `products` → Clase `Product`
-Columna `price` → atributo `private double price`
+- Tabla `products` → Clase `Product`
+- Columna `price` → atributo `private double price`
 
 Este concepto es la base de herramientas como **Hibernate**, pero aquí lo abordamos manualmente para entender los fundamentos.
 
@@ -32,7 +32,7 @@ Este concepto es la base de herramientas como **Hibernate**, pero aquí lo abord
 ## Tipos de mapeo comunes
 
 1. **Mapeo simple** (una tabla ↔ una clase)
-2. **Relaciones uno a muchos** (ej. Cliente → muchos pedidos)}
+2. **Relaciones uno a muchos** (ej. Cliente → muchos pedidos)
 3. **Relaciones muchos a muchos** (ej. Cursos ↔ Estudiantes con intermedia `Enrollment`)
 4. Mapeo con enum (ej. status como `ACTIVE`, `DROPPED`)
 
@@ -75,9 +75,9 @@ Imagina que tienes una base de datos con la siguiente tabla:
 erDiagram
     PRODUCT {
         INT id PK
-        STRING name
-        DOUBLE price
-        STRING category
+        VARCHAR name
+        DECIMAL price
+        VARCHAR category
     }
 ```
 
@@ -220,7 +220,7 @@ En Java, **un objeto** es una instancia concreta de una clase.
 
 > Una **clase** es como un plano o molde (ej. una receta), mientras que un **objeto** es la cosa real que puedes usar (ej. el pastel).
 
-Cuando defines una clase como `Product`, **no estás creando** un estudiante aún; solo describes cómo será. Cuando haces `Product p = new Product()`, **ahí nace el objeto**, con memoria real, valores y comportamiento propios. Esto implica:
+Cuando defines una clase como `Product`, **no estás creando** un producto aún; solo describes cómo será. Cuando haces `Product p = new Product()`, **ahí nace el objeto**, con memoria real, valores y comportamiento propios. Esto implica:
 
 1. Se reserva memoria para el nuevo objeto.
 2. Se llama al constructor que inicializa los atributos.
