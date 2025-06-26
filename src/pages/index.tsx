@@ -34,7 +34,7 @@ export default function Home (): ReactNode {
   return (
     <Layout
       title={ `${ siteConfig.title }` }
-      description="Description will go into a meta tag in <head />">
+      description="Aprende sobre los conceptos básicos de la Programación Orientada a Objetos (POO) y cómo aplicarlos en tu código.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
