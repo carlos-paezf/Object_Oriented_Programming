@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-    title: 'Object Oriented Programming',
-    tagline: 'Learn OOP Concepts',
+    title: 'Programación Orientada a Objetos',
+    tagline: 'Aprende conceptos de POO',
     favicon: 'img/favicon.ico',
 
     // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -77,7 +77,7 @@ const config: Config = {
         // Replace with your project's social card
         image: 'img/docusaurus-social-card.jpg',
         navbar: {
-            title: 'Object Oriented Programming',
+            title: 'Programación Orientada a Objetos',
             logo: {
                 alt: 'OOP',
                 src: 'img/logo.svg',
@@ -87,7 +87,7 @@ const config: Config = {
                     type: 'docSidebar',
                     sidebarId: 'tutorialSidebar',
                     position: 'left',
-                    label: 'Tutorial',
+                    label: 'Conoce la Teoría',
                 },
                 // { to: '/blog', label: 'Blog', position: 'left' },
                 {
